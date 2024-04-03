@@ -1,0 +1,41 @@
+:root {
+  --primary: #f4d04e;
+  --light: #ffffff;
+  --secondary: #808080;
+  --dark: #121212;
+}
+
+.figtree-uniquifier {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary);
+}
+
+.container {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3rem;
+}
